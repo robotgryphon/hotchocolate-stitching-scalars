@@ -1,0 +1,5 @@
+﻿extend type Query {
+
+	number: UnsignedInt @delegate(schema: "scalar", path: "number")
+
+}
